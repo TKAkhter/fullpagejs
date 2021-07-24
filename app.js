@@ -6,8 +6,8 @@ $(document).ready(function () {
     });
 });
 
-$(document).ready(function(){
-	$("#demosMenu").change(function(){
-	  window.location.href = $(this).find("option:selected").attr("id") + '.html';
-	});
+$(document).ready(function () {
+    $("#demosMenu").change(function () {
+        window.location.href = './vendor/fullpagejs/v2-9-7/examples/' + $(this).find("option:selected").attr("id") + '.html';
+    });
 });
